@@ -17,3 +17,32 @@ header a {
   font-weight: bold;
   text-decoration: none;
 }
+
+main {
+  padding: 1rem;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  border: 1px solid #404040;
+  padding: 0.2rem;
+  margin: 0.2rem 1rem;
+}
+
+.imageCointainer {
+  width: 20vw;
+  min-width: 250px;
+  max-width: 300px;
+  height: 30vh;
+  min-height: 400px;
+  max-height: 500px;
+}
+
+.productInfo {
+  padding: 1rem;
+}
